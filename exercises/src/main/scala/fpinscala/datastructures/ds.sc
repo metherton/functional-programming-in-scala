@@ -46,5 +46,7 @@ object ds {
 
   List.hasSubsequence(List(1,2,3), List(1,2))
 
+  val myTree = Branch(Branch(Leaf(3),Leaf(4)), Leaf(5))
+  Tree.max(myTree)
 
 }
